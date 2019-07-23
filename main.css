@@ -1,3 +1,10 @@
+body{
+  background-image: url(backgroundDark.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
