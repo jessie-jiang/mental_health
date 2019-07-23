@@ -1,0 +1,27 @@
+h1{
+  text-align: center;
+}
+img{
+  height: 700px;
+  width: 1000px;
+  align-content: left;
+  padding-top: 10px;
+}
+
+.sidebarInfo {
+  float: center;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 300px;
+  border-left: none;
+  height: 600px;
+}
+
+
+ul.nav{
+    text-align: center;
+}
+
+ul.nav li{
+  display: inline-block;
+}
