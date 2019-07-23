@@ -2,73 +2,11 @@
 <html>
 <head>
   <h2><center>Peace of Mind</center></h2>
+  <!-- start of top bar -->
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-</style>
+<link rel="stylesheet" href="main.css">
 </head>
 <body>
 
@@ -81,7 +19,7 @@ body {
     </button>
     <div class="dropdown-content">
       <a href="#">Overview</a>
-      <a href="#">Types of mental illnesses</a>
+      <a href="types.html">Types of mental illnesses</a>
     </div>
 
   </div>
@@ -89,6 +27,32 @@ body {
   <a href="resources.html">Resources</a>
   <a href="getInvolved.html">Get Involved</a>
 </div>
+<!-- end of top bar -->
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;border:none;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <td> <button onclick="window.location.href = 'depression.html';">Clinical Depression</button></td>
+    <td><button onclick="window.location.href = 'anxiety.html';">Anxiety disorder</button></td>
+    <td><button onclick="window.location.href = 'bipolar.html';">Bipolar depression</button></td>
+  </tr>
+  <tr>
+    <td ><button onclick="window.location.href = 'ADHD.html';">Attention deficit/ hyperactivity disorder (ADHD)</button></td>
+      <td><button onclick="window.location.href = 'Schizophrenia.html';">Schizophrenia</button></td>
+    <td><button onclick="window.location.href = 'Autism.html';">Autism</button></td>
+
+
+  </tr>
+  <tr>
+    <td><button onclick="window.location.href = 'Anorexia.html';">Anorexia</button></td>
+    <td><button onclick="window.location.href = 'OCD.html';">Obsessive compulsive disorder</button></td>
+    <td ><button onclick="window.location.href = 'PTSD.html';">Post traumatic stress disorder</button></td>
+  </tr>
+</table>
 
 </body>
 </html>
