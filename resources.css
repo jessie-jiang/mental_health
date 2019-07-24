@@ -6,6 +6,27 @@
   font-size: 40px
 }
 
+.sub_titles {
+  font-size: 25px;
+  padding: 5px;
+}
+
+#contact {
+  font-size: 20px;
+}
+
+.spacing_btwn_resources {
+  padding: 5px
+}
+
+.spacing_btwn_dif_resources {
+  padding: 10px
+}
+
+.link_color a:link {
+  color: #99ddff;
+}
+
 /* .bullet_point {
   list-style-type: circle;
 } */
