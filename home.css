@@ -31,6 +31,9 @@ ul.nav li{
   background-color: transparent;
 }
 
+.pex{
+  margin-left: 5px;
+}
 
 .pex a:link {
   color: white;
