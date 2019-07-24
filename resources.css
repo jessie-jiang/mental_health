@@ -23,9 +23,15 @@
   padding: 10px
 }
 
-.link_color a:link {
-  color: #99ddff;
+a:visited{
+  color: #00e6e6
 }
+
+a:link{
+  color: #bfff80
+}
+
+ /* .link_color */
 
 /* .bullet_point {
   list-style-type: circle;
