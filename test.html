@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel = "stylesheet" href="homepage.css">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<head>
+ <nav class = "w3-bar w3-transparent" >
+   <love>   <a href="index.html" class="w3-button w3-bar-item">Home</a>
+      <a href="Nutrition.html" class="w3-button w3-bar-item ">Nutrition</a>
+      <a href="musicPlaylist.html" class="w3-button w3-bar-item">Music Playlists</a>
+      <a href="Exercises.html" class="w3-button w3-bar-item">Exercises</a>
+      <a href="restaurants.html" class="w3-button w3-bar-item">Find Restaurants</a>
+<div class = "background"><strong><p id = "demo"></p></strong></div>
+</love>
+  </nav>
+</head>
+
+<script>
+var i = 0;
+var txt = 'FITNESS WEB';
+var speed = 80;
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+window.onload = typeWriter;
+</script>
+
+
+</head>
+
+
+<style>
+body {
+  font-family: 'Oswald';font-size: 25px;
+}
+</style>
+
+
+ <div class = "top">
+
+<br><br>
+</div>
+
+<body>
+<pp><center> Mission Statement </pp></center>
+ <t margin = "30px"> Our mission is to provide resources for teens to live healthy lives. We provide the foundation for nourishing bodies.
+  There aren't many sites that are accesible for teens to learn about working out and maintaining a healthy lifestyle. That's why we created Fitness Web. </t> </br>
+
+<br></br>
+<pp><center> About Us</pp></center>
+
+<div class = "two_elements">
+  <div class =  "text aboutShaVon"> ShaVon Luckey is a 17 year old girl from Northridge, California. She will be a senior at CHAMPS Charter in the fall.
+  She enjoys playing volleyball, reading, and spending time with friends in her free time. In the future,
+ she hopes to attend University of Hawaii at Manoa and major in computer science with a minor in creative writing.</div>
+  <div class="third"><img src = "shaVon.jpg" height = "390px"></div>
+</div>
+<div class = "two_elements">
+  <div class =  "text aboutGabyP">Gabriela Portillo a girl from El salvador she is 16 years old born in January 29, 2002.
+ About to be a senior at high school, dream  school is Cambridge but aspires to go to CalTech. Family is very important to her.
+  She loves doing design it's very cool for her. She also loves learning languages.
+ Loves working with other people and enjoys learning new things.   </div>
+   <div class="third"><img src = "gabyhp.jpg" height = "390px"></div>
+</div>
+
+<div class = "two_elements">
+  <div class =  "text aboutGabyJ" >Gabriela Jimenez is a rising Senior attending CHAMPS Charter High School.
+  Born in Granada Hills, CA on September 11, 2001, she's currently 16 years old.
+  She has her eyes set on USC, there, she'd like to major in Computer Science and minor in Behavioral Economics.
+ Gabriela likes making smoothies and casual exercise.</div>
+  <div class="third"><img src ="GABYJ.jpg" height = "390px" ></div>
+</div>
+
+<br></br>
+<center><img  src = "GWC.jpg" height = "800px"></center>
+
+
+
+ </body>
+<center>
+
+ <div class="container">
+     <p> Contact Us! </p>
+   <form action="/action_page.php">
+     <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br>
+     <input type="text" id="lname" name="lastname" placeholder="Your last name.."> <br>
+     <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea> <br>
+
+     <input type="submit" value="Submit"> <br>
+   </form>
+ </div>
+
+
+
+
+</html>
