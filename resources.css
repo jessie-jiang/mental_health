@@ -23,11 +23,11 @@
   padding: 10px
 }
 
-a:visited{
+#link_visited_color a:visited{
   color: #00e6e6
 }
 
-a:link{
+.link_color a:link{
   color: #bfff80
 }
 
