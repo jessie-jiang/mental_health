@@ -4,6 +4,11 @@
 img {
   float: left;
 }
+p {
+    margin-right: 30px;
+  margin-left: 30px;
+}
+
 </style>
   <head>
     <h1>Peace of Mind</h1>
@@ -38,15 +43,7 @@ img {
   <a href="getInvolved.html">Get Involved</a>
 </div>
     <!-- end of top bar -->
-    <ul class="navbar_ul" id="backgroundUl">
-      <li class="navbar_li">
-        <div>
-          <p><img src="testimage.jpeg" alt="Test image of leaves">
-          <p>
-            <div class="pex">
-              Photos provided by
-              <a href="https://www.pexels.com/" id="Pexels" target="_blank">Pexels</a></div></p></li>
-<!-- API key for Pexels: 563492ad6f9170000100000121ee626bc2ab487a82b19ab59e4a8f04 -->
+
             <meta name="author" content="John Macuk">
  <meta name="description" content="random quote hack of w3schools.com Quotes Slideshow example ">
  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -56,21 +53,20 @@ img {
 body {font-family: Verdana, sans-serif; margin:0}
 
 .slideshow-container {
-  position: relative;
-  background: #0FD5B4;
-  style=width:10px; height:200px;
-  align="right"
+  /* position: relative; */
+  /* background: #0FD5B4; */
+  style=width:10px; height:auto;
+  align: center;
 }
 
 .slides_container div {
-    width:100px;
-    height:200px;
+    width:80%;
     text-align:center;
 }
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -86,7 +82,7 @@ q {font-style: italic;}
 <div class="slideshow-container">
 
 <div class="mySlides">
-  <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+  <q>I love you the more in that I believe you had liked me for my own sake and for nothing else.</q>
   <p class="author">- John Keats</p>
 </div>
 
@@ -164,8 +160,20 @@ function showSlides(n) {
   var n = Math.round(Math.random()*(slides.length-1));
   slides[n].style.display = "block";
 }
-</script></p>
+</script>
+
+<!-- </p> -->
         </div>
+
+        <ul class="navbar_ul" id="backgroundUl">
+          <li class="navbar_li">
+            <div>
+              <p><img src="testimage.jpeg" alt="Test image of leaves">
+              <p>
+                <div class="pex">
+                  Photos provided by
+                  <a href="https://www.pexels.com/" id="Pexels" target="_blank">Pexels</a></div></p></li>
+    <!-- API key for Pexels: 563492ad6f9170000100000121ee626bc2ab487a82b19ab59e4a8f04 -->
 
       <li class="navbar_li"><div class="sidebarInfo">
         <h2>Daily Challenge</h2>
@@ -182,8 +190,8 @@ function showSlides(n) {
     news bar-->
 
     <div id="disclaimer">
-      <p>Disclaimer: We tried our best to make this website as helpful and respectful as possible, but we are not professionals. For this reason, we have included useful resources (in the resources page) in case you need real help.
-</p>
+      <p margin-right = 20px; margin-left = 20px>Disclaimer: We tried our best to make this website as helpful and respectful as possible, but we are not professionals. For this reason, we have included useful resources (in the resources page) in case you need real help.
+      </p>
     </div>
 
   </body>
