@@ -1,3 +1,5 @@
+
+/* background for every page */
 body{
   background-image: url(backgroundDark.png);
   background-repeat: no-repeat;
@@ -5,7 +7,7 @@ body{
   color: white;
 }
 
-ul {
+.navbar_ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -13,11 +15,11 @@ ul {
   background-color: #333;
 }
 
-li {
+.navbar_li {
   float: left;
 }
 
-li a {
+.navbar_li a {
   display: block;
   color: white;
   text-align: center;
@@ -25,7 +27,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.navbar_li a:hover {
   background-color: #111;
 }
 
