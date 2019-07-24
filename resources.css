@@ -6,6 +6,33 @@
   font-size: 40px
 }
 
+.sub_titles {
+  font-size: 25px;
+  padding: 5px;
+}
+
+#contact {
+  font-size: 20px;
+}
+
+.spacing_btwn_resources {
+  padding: 5px
+}
+
+.spacing_btwn_dif_resources {
+  padding: 10px
+}
+
+a:visited{
+  color: #00e6e6
+}
+
+a:link{
+  color: #bfff80
+}
+
+ /* .link_color */
+
 /* .bullet_point {
   list-style-type: circle;
 } */
