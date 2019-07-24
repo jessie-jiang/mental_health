@@ -2,6 +2,23 @@
 <html>
   <head>
     <link rel="stylesheet" href="resources.css">
+    <style>
+    * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 4px;
+      }
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    </style>
   </head>
   <body>
     <h1><center>Peace of Mind</center></h1>
@@ -32,5 +49,24 @@
     <a href="getInvolved.html">Get Involved</a>
     </div>
     <!-- end of top bar -->
+    <center><h2>Organizations</h2></center>
+    <div class="row">
+      <div class="column">
+        <img src="https://childmind.org/wp-content/uploads/CMI_logo.jpg" width="300" height="300" alt="CMI">
+        <center>
+          <h4>Child Mind Institute</h4>
+          <p>The Child Mind Institute's clinical practice is dedicated to providing the highest quality evidence-based care to children and families faced with mental health and learning disorders.</p>
+          <a href= "https://childmind.org/">Learn More</a>
+        </center>
+      </div>
+      <div class="column">
+        <img src="https://www.icci.science/data/objecticon/11776.jpg?1548862970" width="300" height="300" alt="NIMH">
+        <center>
+          <h4>National Institute of Mental Health (NIMH)</h4>
+          <p>The National Institute of Mental Health (NIMH) is the lead federal agency for research on mental disorders. </p>
+          <a href= "https://www.nimh.nih.gov/index.shtml">Learn More</a>
+        </center>
+      </div>
+    </div>
   </body>
-  </html>
+</html>
