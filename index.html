@@ -24,24 +24,23 @@ p {
     <!-- start of top bar -->
 
     <div class="navbar">
-  <a href="index.html">Home</a>
+      <a href="index.html">Home</a>
 
+      <div class="dropdown">
+        <button class="dropbtn">About
+          <i class="fa fa-caret-down"></i>
+        </button>
+      <div class="dropdown-content">
+        <a href="overview.html">Overview</a>
+        <a href="types.html">Types of mental illnesses</a>
+      </div>
+      </div>
+      <a href="events.html">Events</a>
+      <a href="resources.html">Resources</a>
+      <a href="getInvolved.html">Get Involved</a>
+      <a href="playlist.html">De-Stress Now!</a>
 
-  <div class="dropdown">
-    <button class="dropbtn">About
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="overview.html">Overview</a>
-      <a href="types.html">Types of mental illnesses</a>
     </div>
-
-  </div>
-  <a href="events.html">Events</a>
-  <a href="resources.html">Resources</a>
-  <a href="getInvolved.html">Get Involved</a>
-  <a href="playlist.html">De-Stress Now!</a>
-</div>
     <!-- end of top bar -->
 
             <meta name="author" content="John Macuk">
@@ -177,7 +176,117 @@ function showSlides(n) {
 
       <li class="navbar_li"><div class="sidebarInfo">
         <h2>Daily Challenge</h2>
-        <p>Take a 10 minute walk.</p>
+        <p>
+        <meta name="description" content="random quote hack of w3schools.com Quotes Slideshow example ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+
+        .slideshow-container {
+        /* position: relative; */
+        /* background: #0FD5B4; */
+        style=width:10px; height:auto;
+        align: center;
+        }
+
+        .slides_container div {
+        width:80%;
+        text-align:center;
+        }
+        /* Slides */
+        .activity {
+        display: none;
+        padding-top: 20px;
+        text-align: center;
+        }
+
+        /* Add an italic font style to all quotes */
+        q {font-style: italic;}
+
+        /* Add a blue color to the author */
+        </style>
+        </head>
+        <body>
+
+        <div class="slideshow-container">
+
+        <div class="activity">
+        <q>Breathe Deeply
+        </q>
+        </div>
+
+        <div class="activity">
+        <q>Go For A 10 Minute Walk
+        </q>
+        </div>
+
+        <div class="activity">
+        <q>Visualize</q>
+        </div>
+
+        <div class="activity">
+        <q>Eat A Snack (Mindfully!)
+        </q>
+        </div>
+        <!-- quotes -->
+        <div class="activity">
+        <q>Buy Yourself A Plant
+        </q>
+        </div><div class="activity">
+        <q>Step Away From The Screen
+        </q>
+        </div><div class="activity">
+        <q>Put On Some Music</q>
+
+        </div><div class="activity">
+        <q>Treat Yourself! Eat One (ONE!) Candy
+
+        </q>
+        </div><div class="activity">
+        <q>Be yourself; everyone else is already taken.
+        </q>
+        </div><div class="activity">
+        <q>
+          Chew A Piece Of Gum
+
+        </q>
+        </div><div class="activity">
+        <q>Progressive Muscle Relaxation
+
+        </q>
+        </div><div class="activity">
+        <q>See Your BFF
+
+        </q>
+        </div><div class="activity">
+        <q>
+          Eat A Banana (Or A Potato!)
+        </q>
+        </div><div class="activity">
+        <q>Try Eagle Pose (or any yoga)
+
+        </q>
+        </div><div class="activity">
+        <q>Try Crafts
+        </q>
+        </div><div class="activity">
+        <q>Do a workout or go for a run
+        </q>
+        </div>
+        <script>
+
+        var slideIndex;
+        showSlides(slideIndex);
+
+        function showSlides(n) {
+        var slides = document.getElementsByClassName("activity");
+        var n = Math.round(Math.random()*(slides.length-1));
+        slides[n].style.display = "block";
+        }
+        </script>
+</p>
         <h2>Current News</h2>
         <p>text...</p>
       </div></li>
