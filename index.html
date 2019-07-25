@@ -176,7 +176,7 @@ function showSlides(n) {
 
       <li class="navbar_li"><div class="sidebarInfo">
         <h2>Daily Challenge</h2>
-        <p><meta name="author" content="John Macuk">
+        <p>
         <meta name="description" content="random quote hack of w3schools.com Quotes Slideshow example ">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -196,7 +196,7 @@ function showSlides(n) {
         text-align:center;
         }
         /* Slides */
-        .mySlides {
+        .activity {
         display: none;
         padding-top: 20px;
         text-align: center;
@@ -212,66 +212,66 @@ function showSlides(n) {
 
         <div class="slideshow-container">
 
-        <div class="mySlides">
+        <div class="activity">
         <q>Breathe Deeply
         </q>
         </div>
 
-        <div class="mySlides">
+        <div class="activity">
         <q>Go For A 10 Minute Walk
         </q>
         </div>
 
-        <div class="mySlides">
+        <div class="activity">
         <q>Visualize</q>
         </div>
 
-        <div class="mySlides">
+        <div class="activity">
         <q>Eat A Snack (Mindfully!)
         </q>
         </div>
         <!-- quotes -->
-        <div class="mySlides">
+        <div class="activity">
         <q>Buy Yourself A Plant
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>Step Away From The Screen
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>Put On Some Music</q>
 
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>Treat Yourself! Eat One (ONE!) Candy
 
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>Be yourself; everyone else is already taken.
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>
           Chew A Piece Of Gum
 
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>Progressive Muscle Relaxation
 
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>See Your BFF
 
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>
           Eat A Banana (Or A Potato!)
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>Try Eagle Pose (or any yoga)
 
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>Try Crafts
         </q>
-        </div><div class="mySlides">
+        </div><div class="activity">
         <q>Do a workout or go for a run
         </q>
         </div>
@@ -281,7 +281,7 @@ function showSlides(n) {
         showSlides(slideIndex);
 
         function showSlides(n) {
-        var slides = document.getElementsByClassName("mySlides");
+        var slides = document.getElementsByClassName("activity");
         var n = Math.round(Math.random()*(slides.length-1));
         slides[n].style.display = "block";
         }
