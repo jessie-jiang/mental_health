@@ -1,4 +1,12 @@
 /* Nunito font for all text */
+body{
+  background-image: url(testing.jpeg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
 p{
   font-family: 'Nunito', sans-serif;
 }
@@ -30,7 +38,7 @@ background-color:#e2fde2;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: blue;
+  background-color: darkgray;
 }
 
 .navbar_li {
@@ -45,8 +53,9 @@ background-color:#e2fde2;
   text-decoration: none;
 }
 
+/* for daily news button */
 .navbar_li a:hover {
-  background-color: darkcyan;
+  background-color: #f2f2f2;
 }
 
 .tab {
