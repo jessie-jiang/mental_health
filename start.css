@@ -1,31 +1,11 @@
-/* Nunito font for all text */
-h1{
-  font-family: 'Nunito', sans-serif;
-}
-p{
-  font-family: 'Nunito', sans-serif;
-}
-
-div{
-  font-family: 'Nunito', sans-serif;
-}
-
-a{
-  font-family: 'Nunito', sans-serif;
-}
-
-q{
-  font-family: 'Nunito', sans-serif;
-}
-
-h3{
-  font-family: 'Nunito', sans-serif;
-}
-
 body{
-  font-family: 'Nunito', sans-serif
-}
+  background-image: url(background.jpeg);
 
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
 
 .button {
   border-radius: 10px;
@@ -34,32 +14,48 @@ body{
   display: inline-block;
   margin: 4px 2px;
   cursor: pointer;
-  height:150px;
-  width:200px;
+  height:40px;
+  width:150px;
   opacity: 0.9;
   display: table-cell;
   vertical-align: middle;
-  font-family: 'Nunito', sans-serif;
-}
-.button {
-	background:#008080;
+  background:#006680;
+  border-color: #006680;
+  opacity: 0.7;
+  color: white
 }
 
+.button {border-radius: 60px;}
+
 .button:hover {
-	background:#39D4CC;
+  opacity: 0.5;
+  border-color: #81F7F3;
 }
+
+
 .center_text_in_box {
   font-size: 16px;
   color: white;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
+  font-family: 'Nunito', sans-serif;
   /* padding-top: 67px; */
 }
 .buttonStyle:hover { background: #383; }
 
 
     }
+
+/* text */
+#welcome{
+  font-family: 'Nunito', sans-serif;
+}
+
+#logo{
+  font-family: 'Nunito', sans-serif;
+}
+
 /* th {
   height: 100px;
 } */
