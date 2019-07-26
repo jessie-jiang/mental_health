@@ -1,3 +1,19 @@
+/* Nunito font for all text */
+p{
+  font-family: 'Nunito', sans-serif;
+}
+
+div{
+  font-family: 'Nunito', sans-serif;
+}
+
+a{
+  font-family: 'Nunito', sans-serif;
+}
+
+q{
+  font-family: 'Nunito', sans-serif;
+}
 
 /* background for every page */
 body{
@@ -36,7 +52,7 @@ body{
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .navbar {
