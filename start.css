@@ -4,6 +4,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  font-family: 'Nunito', sans-serif;
 }
 table, th, td {  vertical-align: middle;
 }
@@ -40,12 +41,23 @@ table, th, td {  vertical-align: middle;
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
+  font-family: 'Nunito', sans-serif;
   /* padding-top: 67px; */
 }
 .buttonStyle:hover { background: #383; }
 
 
     }
+
+/* text */
+#welcome{
+  font-family: 'Nunito', sans-serif;
+}
+
+#logo{
+  font-family: 'Nunito', sans-serif;
+}
+
 /* th {
   height: 100px;
 } */
