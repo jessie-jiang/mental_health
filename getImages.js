@@ -17,7 +17,7 @@ function fetchJSON(path, callback) {
 function randomImageHome() {
   var endpoint = "https://api.pexels.com/v1/curated?per_page=1&page=";
   var randomImageId = (Math.floor(Math.random() * 1000) + 1).toString();
-
+  
   endpoint += randomImageId;
 
   fetchJSON(endpoint, function(data) {
