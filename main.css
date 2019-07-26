@@ -17,10 +17,12 @@ q{
 
 /* background for every page */
 body{
-  background-image: url(backgroundDark.png);
+  /* background-image: url(background.jpeg); */
+
+background-color:#e2fde2;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: black;
 }
 
 .navbar_ul {
