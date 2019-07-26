@@ -9,6 +9,8 @@
   height:150px;
   width:200px;
   opacity: 0.9;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .center_text_in_box {
@@ -19,3 +21,7 @@
   text-decoration: none;
   /* padding-top: 67px; */
 }
+
+/* th {
+  height: 100px;
+} */
