@@ -206,34 +206,166 @@ function showSlides(n) {
 
 <style>
   table {
-    table-layout: fixed ;
+    /* table-layout: fixed ; */
     width: 100% ;
   }
-  td {
+  /* td {
     width: 50% ;
-  }
-  tr {
+  } */
+  /* tr {
     width: 90%;
-  }
+  } */
 </style>
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<center>
 <table>
-  <center><tr>
-    <td id="home_equal">
+  <div><tr>
+    <td>
+      <img src="getImages.js" alt="x" id="randImages" style="max-height:750px;min-width: 430px;overflow:hidden;">
+      <div style="width:inherit;height:auto;margin-left:15px" class="pex" id="pexels_credit">
+        Photos provided by
+        <a href="https://www.pexels.com/" id="Pexels" target="_blank">Pexels</a>
+      </div>
+    </td>
+    <td>
+      <div class="sidebarInfo">
+        <h2>Daily Challenge</h2>
+        <p>
+        <meta name="description" content="random quote hack of w3schools.com Quotes Slideshow example ">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+
+        .slideshow-container {
+        /* position: relative; */
+        /* background: #0FD5B4; */
+        style=width:10px; height:auto;
+        /* width: 23.5%; */
+        align: center;
+        }
+
+        .slides_container div {
+        width:80%;
+        text-align:center;
+        }
+        /* Slides */
+        .activity {
+        display: none;
+        padding-top: 20px;
+        text-align: center;
+        }
+
+        /* Add an italic font style to all quotes */
+        q {font-style: italic;}
+
+        /* Add a blue color to the author */
+        </style>
+        </head>
+        <body>
+
+        <div class="slideshow-container">
+
+        <div class="activity">
+        <q>Breathe Deeply
+        </q>
+        </div>
+
+        <div class="activity">
+        <q>Go For A 10 Minute Walk
+        </q>
+        </div>
+
+        <div class="activity">
+        <q>Visualize</q>
+        </div>
+
+        <div class="activity">
+        <q>Eat A Snack (Mindfully!)
+        </q>
+        </div>
+        <!-- quotes -->
+        <div class="activity">
+        <q>Buy Yourself A Plant
+        </q>
+        </div><div class="activity">
+        <q>Step Away From The Screen
+        </q>
+        </div><div class="activity">
+        <q>Put On Some Music</q>
+
+        </div><div class="activity">
+        <q>Treat Yourself! Eat One (ONE!) Candy
+
+        </q>
+        </div><div class="activity">
+        <q>Be yourself; everyone else is already taken.
+        </q>
+        </div><div class="activity">
+        <q>
+          Chew A Piece Of Gum
+
+        </q>
+        </div><div class="activity">
+        <q>Progressive Muscle Relaxation
+
+        </q>
+        </div><div class="activity">
+        <q>See Your BFF
+
+        </q>
+        </div><div class="activity">
+        <q>
+          Eat A Banana (Or A Potato!)
+        </q>
+        </div><div class="activity">
+        <q>Try Eagle Pose (or any yoga)
+
+        </q>
+        </div><div class="activity">
+        <q>Try Crafts
+        </q>
+        </div><div class="activity">
+        <q>Do a workout or go for a run
+        </q>
+        </div>
+        <script>
+
+        var slideIndex;
+        showSlides(slideIndex);
+
+        function showSlides(n) {
+        var slides = document.getElementsByClassName("activity");
+        var n = Math.round(Math.random()*(slides.length-1));
+        slides[n].style.display = "block";
+        }
+        </script>
+      </p>
+      <h2>Current News</h2>
+      <p>text...</p>
+      </div>
+    </td>
+  </tr></div>
+</table>
+</center>
+
+  <!-- <center><tr>
+    <td>
       <div>
       <ul class="navbar_ul" id="backgroundUl">
         <li class="navbar_li">
           <div>
             <p><img src="getImages.js" alt="x" id="randImages" style="max-height:750px;min-width: 430px;overflow:hidden;"></p>
             <p>
-              <div style="width:72.5%;height:auto;margin-left:15px" class="pex" id="pexels_credit">
+              <div > -->
               <!-- <div class="pex"> -->
-                Photos provided by
-                <a href="https://www.pexels.com/" id="Pexels" target="_blank">Pexels</a></div></p></li></div>
+                <!-- Photos provided by
+                <a href="https://www.pexels.com/" id="Pexels" target="_blank">Pexels</a></div></p></li></div> -->
   <!-- API key for Pexels: 563492ad6f9170000100000121ee626bc2ab487a82b19ab59e4a8f04 -->
-      <div>
+      <!-- <div>
         <center><div class="sidebarInfo">
           <h2>Daily Challenge</h2>
           <p>
@@ -244,8 +376,8 @@ function showSlides(n) {
           * {box-sizing: border-box}
           body {font-family: Verdana, sans-serif; margin:0}
 
-          .slideshow-container {
-          /* position: relative; */
+          .slideshow-container { -->
+          <!-- /* position: relative; */
           /* background: #0FD5B4; */
           style=width:10px; height:auto;
           /* width: 23.5%; */
@@ -290,9 +422,9 @@ function showSlides(n) {
           <div class="activity">
           <q>Eat A Snack (Mindfully!)
           </q>
-          </div>
+          </div> -->
           <!-- quotes -->
-          <div class="activity">
+          <!-- <div class="activity">
           <q>Buy Yourself A Plant
           </q>
           </div><div class="activity">
@@ -357,7 +489,7 @@ function showSlides(n) {
     </td>
 
   </tr></center>
-</table>
+</table> -->
 
     <!-- add image
     add quote
