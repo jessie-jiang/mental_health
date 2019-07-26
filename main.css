@@ -59,7 +59,8 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: white;
+  /* lighter cyan */
+  background-color: #00b3b3;
 }
 
 .navbar a {
