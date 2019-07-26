@@ -6,6 +6,12 @@ body{
   color: white;
   font-family: 'Nunito', sans-serif;
 }
+div.a {
+  font-size: 30px;
+}
+div.b {
+  font-size: 60px;
+}
 table, th, td {
   valign: middle;
   display: table-cell;
@@ -21,19 +27,18 @@ table, th, td {
   cursor: pointer;
   height:40px;
   width:150px;
-  opacity: 0.9;
   display: table-cell;
   vertical-align: middle;
   background:#006680;
   border-color: #006680;
-  opacity: 0.7;
+  opacity: 0.9;
   color: white
 }
 
 .button {border-radius: 60px;}
 
 .button:hover {
-  opacity: 0.5;
+  opacity: 0.7;
   border-color: #81F7F3;
 }
 
