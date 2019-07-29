@@ -41,9 +41,12 @@ q{
   float: center;
   padding: 0px 12px;
   border: 1px solid #ccc;
-  width: 670px;
-  height: 700px;
-  margin-left: 25px;
+  height: auto;
+  /* width: 670px; */
+  max-width:30%;
+  /* width: 670px; */
+  /* height: 700px; */
+  margin-left: 15px;
   text-align: center;
 }
 
