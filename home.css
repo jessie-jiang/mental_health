@@ -11,12 +11,17 @@ body{
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
 }
+
 img{
   height: 700px;
   width: 665px;
   align-content: left;
   margin-left: 15px;
   margin-top: 0px;
+}
+
+q{
+  font-size: 15px;
 }
 
 .sidebarInfo {
