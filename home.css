@@ -9,7 +9,7 @@ body{
   font-size: 40px;
 }
 
-img{
+#randImages{
   height: 700px;
   width: 665px;
   align-content: left;
@@ -26,7 +26,7 @@ q{
   padding: 0px 12px;
   border: 1px solid #ccc;
   width: 670px;
-  height: 600px;
+  height: 700px;
   margin-left: 25px;
   text-align: center;
 }
@@ -55,7 +55,7 @@ ul.nav li{
 }
 
 .pex a:active {
-  color: white;
+  color: blue;
   text-decoration: none
 }
 
