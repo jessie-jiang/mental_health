@@ -1,6 +1,7 @@
 
 body{
   font-family: 'Nunito', sans-serif;
+  background-image: url(testing.jpeg);
 
 }
 #title{
@@ -84,7 +85,6 @@ ul.nav li{
 }
 
 #Pexels{
-  background-color: transparent;
   padding: 0px;
   margin: 0px;
   text-align: left;
