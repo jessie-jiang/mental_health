@@ -27,7 +27,7 @@ q{
   float: left;
   margin-bottom: 10px;
   height: 45px;
-  width: 50px;
+  width: 100px;
   display: inline-block;
   text-align: center;
   background-color: transparent;
@@ -36,6 +36,7 @@ q{
 #pomTitle{
   margin: none;
   padding: none;
+
 }
 
 #title{
@@ -45,6 +46,7 @@ q{
   color: white;
   margin: none;
   background-color: transparent;
+
 }
 
 #bar{
