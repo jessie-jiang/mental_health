@@ -19,12 +19,14 @@ div.ex1 {
 
 </style>
   <head>
-    <h1 id="title">Peace of Mind</h1>
-
     <meta charset="utf-8">
+
+    <!-- <link rel = "icon" type = "image/png" href = "final.png"> -->
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sofia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="home.css">
 
@@ -36,12 +38,26 @@ div.ex1 {
   </head>
 
   <body>
+
+
+
     <!-- start of top bar -->
 
     <div class="navbar">
-      <a href="index.html"><font color="white">Home</font></a>
+      <p>
+        <a href="index.html" id="title">
+          <img src="final.png" alt="Peace of Mind Logo" id="pomLogo">
+          <h1 id="pomTitle">Peace of Mind</h1>
+        </a>
+      </p>
 
-      <div class="dropdown">
+      <a href="playlist.html" id="bar"><font color="white">De-Stress Now!</font></a>
+      <a href="getInvolved.html" id="bar"><font color="white">Get Involved</font></a>
+      <a href="resources.html" id="bar"><font color="white">Resources</font></a>
+      <a href="events.html" id="bar"><font color="white">Events</font></a>
+
+
+      <div class="dropdown" id="bar">
         <button class="dropbtn"><font color="white">About</font>
           <i class="fa fa-caret-down"></i>
         </button>
@@ -49,11 +65,8 @@ div.ex1 {
         <a href="overview.html"><font color="black">Overview</font></a>
         <a href="types.html"><font color="black">Types of mental illnesses</font></a>
       </div>
-      </div>
-      <a href="events.html"><font color="white">Events</font></a>
-      <a href="resources.html"><font color="white">Resources</font></a>
-      <a href="getInvolved.html"><font color="white">Get Involved</font></a>
-      <a href="playlist.html"><font color="white">De-Stress Now!</font></a>
+    </div id="bar">
+      <a href="index.html" id="bar"><font color="white">Home</font></a>
 
     </div>
     <!-- end of top bar -->
@@ -182,7 +195,7 @@ function showSlides(n) {
         <ul class="navbar_ul" id="backgroundUl">
           <li class="navbar_li">
             <div>
-              <p><img src="getImages.js" alt="x" id="randImages"></p>
+              <p><img src="getImages.js" alt="Random photo provided by Pexels" id="randImages"></p>
               <p>
                 <div class="pex">
                   Photos provided by
