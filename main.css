@@ -112,3 +112,7 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+#randImages{
+  display: inline-block;
+}
