@@ -1,41 +1,92 @@
 <!DOCTYPE html>
 <html>
+<head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sofia&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
 <style>
   p {
-  margin-right: 150px;
-  margin-left: 80px;
+  margin-right: 5px;
+  margin-left: 5px;
   img {
     float: left;
   }
+  }
+  .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  max-height: 750px;
+  /* margin: auto; */
+  padding: 15px;
+  text-align: center;
+  font-family: Nunito ;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
   </style>
-<head>
-<h1><center>Peace of Mind</center></h1>
-<!-- start of top bar -->
+</head>
+<body>
 
 <!-- start of top bar -->
 
 <div class="navbar">
-  <a href="index.html">Home</a>
-  <div class="dropdown">
-    <button class="dropbtn">About
+  <p>
+    <a href="index.html" id="title">
+      <img src="final.png" alt="Peace of Mind Logo" id="pomLogo">
+      <h1 id="pomTitle">Peace of Mind</h1>
+    </a>
+  </p>
+
+  <a href="playlist.html" id="bar"><font color="white">De-Stress Now!</font></a>
+  <a href="getInvolved.html" id="bar"><font color="white">Get Involved</font></a>
+  <a href="resources.html" id="bar"><font color="white">Resources</font></a>
+  <a href="events.html" id="bar"><font color="white">Events</font></a>
+
+
+  <div class="dropdown" id="bar">
+    <button class="dropbtn"><font color="white">About</font>
       <i class="fa fa-caret-down"></i>
     </button>
   <div class="dropdown-content">
-    <a href="overview.html">Overview</a>
-    <a href="types.html">Types of mental illnesses</a>
+    <a href="overview.html"><font color="black">Overview</font></a>
+    <a href="types.html"><font color="black">Types of mental illnesses</font></a>
   </div>
-  </div>
-  <a href="events.html">Events</a>
-  <a href="resources.html">Resources</a>
-  <a href="getInvolved.html">Get Involved</a>
-  <a href="playlist.html">De-Stress Now!</a>
+</div id="bar">
+  <a href="index.html" id="bar"><font color="white">Home</font></a>
+
 </div>
 <!-- end of top bar -->
-<!-- end of top bar -->
+
 <hr>
 <p><h1><center>Overview</center></h1>
   <hr>
@@ -50,20 +101,65 @@ We envision a future where everyone is healthy and happy!
 <h2><center>About Us</center></h2>
 <hr><table align = center>
 <tr>
-  <td><img src="nikhita.jpg" alt="Nikhita" style="width:170px;height:170px;margin-right:15px;"></td>
-  <td><p>Hi, I'm Nikhita! I am a rising senior in high school. I am interested in Data Analysis and Computer Science, and my favorite subject is math. In my free time, I like running, yoga, gymnastics, and spending time with my friends and family. My favorite food is anything sweet. </p></td>
-  </tr>
-<tr>
-  <td><img src="Isabel.jpg" alt="Isabel" style="width:170px;height:170px;margin-right:15px;"></td>
-  <td><p>ccfvghjnbghjmnbghjmnb</p></td>
-  </tr>
-<tr>
-  <td><img src="Jessie.jpg" alt="Jessie" style="width:170px;height:170px;margin-right:15px;"></td>
-  <td><p>ccfvghjnbghjmnbghjmnb</p></td>
-</tr>
-<tr>
-  <td><img src="Anvi.jpg" alt="Anvi" style="width:170px;height:250px;margin-right:15px;"></td>
-<td><p>Anvi Kunta is a rising senior at Washington High School. In her free time, she likes playing tennis and watching TV shows on Netflix. Girls Who Code opened Anvi's eyes to the tech industry and allowed her to develop her coding skills.</p></td>
+  <th>
+  <div class="card">
+    <img src="nikhita.jpg" alt="Nikhita" style="width:100%">
+    <h1>Nikhita Kalluri</h1>
+    <p class="title">Evergreen Valley High School</p>
+    <p>Hi, I'm Nikhita! I am a rising senior in high school. I am interested in Data Analysis and Computer Science, and my favorite subject is math. In my free time, I like running, yoga, gymnastics, and spending time with my friends. I love eating anything sweet.</p>
+    <div style="margin: 20px 0;">
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-snapchat"></i></a>
+    </div>
+    <p><button>Contact</button></p>
+  </div>
+</th>
+<th>
+  <div class="card">
+    <img src="Anvi.jpg" alt="Anvi" style="width:100%">
+    <h1>Anvi Kunta</h1>
+    <p class="title">Washington High School</p>
+    <p>Anvi Kunta is a rising senior at Washington High School. In her free time, she likes playing tennis and watching TV shows on Netflix. Girls Who Code opened Anvi's eyes to the tech industry and allowed her to develop her coding skills.</p>
+    <div style="margin: 20px 0;">
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-snapchat"></i></a>
+    </div>
+    <p><button>Contact</button></p>
+  </div>
+</th>
+<th>
+  <div class="card">
+    <img src="Isabel.jpg" alt="Isabel" style="width:100%">
+    <h1>Isabel Berny</h1>
+    <p class="title">Los Altos High School</p>
+    <p>Supposedly there are over one million words in the English Language. We trimmed some fat to take away really odd words and determiners. Then we grabbed the most popular words and built this word randomizer. Just keep clicking</p>
+    <div style="margin: 20px 0;">
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-snapchat"></i></a>
+    </div>
+    <p><button>Contact</button></p>
+  </div>
+</th>
+<th>
+  <div class="card">
+    <img src="Jessie.jpg" alt="Jessie" style="width:100%">
+    <h1>Jessie Jiang</h1>
+    <p class="title">San Mateo High School</p>
+    <p>Supposedly there are over one million words in the English Language. We trimmed some fat to take away really odd words and determiners. Then we grabbed the most popular words and built this word randomizer. Just keep clicking</p>
+    <div style="margin: 20px 0;">
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-snapchat"></i></a>
+    </div>
+    <p><button>Contact</button></p>
+  </div>
+</th>
 </tr>
 </table>
 
