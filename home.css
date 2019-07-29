@@ -1,14 +1,9 @@
 body{
-  background-image: url(testing.jpeg);
-
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
   font-family: 'Nunito', sans-serif;
 }
 #title{
   text-align: center;
-  font-family: 'Nunito', sans-serif;
+
   font-size: 40px;
 }
 
