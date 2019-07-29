@@ -135,6 +135,7 @@ body {
   background-color: #81B89A;
   /* 89C4A5; */
   border-radius: 12px;
+  text-decoration: none;
 }
 
 .dropdown-content {
