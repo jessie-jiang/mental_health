@@ -217,19 +217,25 @@ function showSlides(n) {
   } */
 </style>
 
+<style media="screen">
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <center>
-<table>
-  <div><tr>
-    <td>
-      <img src="getImages.js" alt="x" id="randImages" style="max-height:750px;min-width: 430px;overflow:hidden;">
-      <div style="width:inherit;height:auto;margin-left:15px" class="pex" id="pexels_credit">
-        Photos provided by
-        <a href="https://www.pexels.com/" id="Pexels" target="_blank">Pexels</a>
-      </div>
+<table style="border: 1px solid #990000;">
+  <div><tr style="border: 1px solid #990000;">
+    <td style="border: 1px solid #990000;position:relative;text-align:center">
+      <center><img src="getImages.js" alt="x" id="randImages" style="max-height:750px;min-width: 430px;overflow:hidden;"></center>
+        <!-- <br>
+      Photos provided by
+      <a href="https://www.pexels.com/" id="Pexels" target="_blank">Pexels</a> -->
     </td>
-    <td>
+    <td style="border: 1px solid #990000;">
       <div class="sidebarInfo">
         <h2>Daily Challenge</h2>
         <p>
@@ -237,8 +243,8 @@ function showSlides(n) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <style>
-        * {box-sizing: border-box}
-        body {font-family: Verdana, sans-serif; margin:0}
+        /* * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0} */
 
         .slideshow-container {
         /* position: relative; */
