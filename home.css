@@ -2,7 +2,7 @@
 body{
   font-family: 'Nunito', sans-serif;
   background-image: url(testing.jpeg);
-
+  background="testing.jpeg"
 }
 #title{
   text-align: center;
