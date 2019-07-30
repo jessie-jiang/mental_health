@@ -31,13 +31,15 @@ q{
   display: inline-block;
   text-align: center;
   background-color: transparent;
-  padding: 0px 0px;
+  padding: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
 }
 
 #pomTitle{
-  margin: none;
-  padding: 0px 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   text-align: inherit;
+  border: 0px 0px 0px 0px;
 
 }
 
