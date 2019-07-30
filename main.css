@@ -34,7 +34,7 @@ q{
   margin-right: 10px;
   margin-bottom: 20px;
   border: 0px 0px 0px 0px;
-  word-wrap: break-word;
+
 }
 
 #pomTitle{
@@ -44,8 +44,6 @@ q{
   border: 0px 0px 0px 0px;
   font-size: 45px;
   font-family: 'Sofia', cursive;
-  text-overflow: visible;
-  word-wrap: break-word;
   height:80px;
   width: 400px;
 }
@@ -58,12 +56,15 @@ q{
   color: white;
   margin: none;
   background-color: transparent;
-  text-overflow: visible;
 }
 
 #bar{
   float:right;
-  text-align: center;
+  text-align: inherit;
+  height: 80px;
+
+  /* margin-left: 2px;
+  margin-right: 2px; */
 }
 /* background for every page */
 body{
@@ -77,7 +78,7 @@ background-color:#e2fde2;
 
 .navbar_ul {
   list-style-type: none;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   overflow: hidden;
   background-color: darkgray;
