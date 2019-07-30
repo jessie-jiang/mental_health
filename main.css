@@ -27,15 +27,17 @@ q{
   float: left;
   margin-bottom: 10px;
   height: 45px;
-  width: 100px;
+  width: 50px;
   display: inline-block;
   text-align: center;
   background-color: transparent;
+  padding: 0px 0px;
 }
 
 #pomTitle{
   margin: none;
-  padding: none;
+  padding: 0px 0px;
+  text-align: inherit;
 
 }
 
