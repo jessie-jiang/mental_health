@@ -1,8 +1,10 @@
 
 body{
   font-family: 'Nunito', sans-serif;
-  background-image: url(testing.png);
-  background="testing.png"
+  background-image: url("testing.png");
+  background="testing.png";
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 img{

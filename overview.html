@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href='https://fonts.googleapis.com/css?family=Dekko' rel='stylesheet'>
+<link rel="stylesheet" href="overview.css">
+<!-- bootstrap to clear web formatting -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
   p {
   margin-right: 5px;
@@ -31,7 +34,7 @@
   font-size: 18px;
 }
 
-button {
+.button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -40,7 +43,7 @@ button {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 97%;
   font-size: 18px;
 }
 
@@ -57,35 +60,32 @@ button:hover, a:hover {
 </head>
 <body>
 
-<!-- start of top bar -->
+  <!-- start of top bar -->
 
-<div class="navbar">
-  <p>
-    <a href="index.html" id="title">
-      <img src="final.png" alt="Peace of Mind Logo" id="pomLogo">
-      <h1 id="pomTitle">Peace of Mind</h1>
-    </a>
-  </p>
+  <div class="navbar">
+    <div>
+      <a href="index.html" id="title">
+        <img src="final.png" alt="Peace of Mind Logo" id="pomLogo">
+        <h1 id="pomTitle">Peace of Mind</h1>
+      </a>
+    </div>
+    <a href="index.html" id="bar"><font color="white">Home</font></a>
 
-  <a href="playlist.html" id="bar"><font color="white">De-Stress Now!</font></a>
-  <a href="getInvolved.html" id="bar"><font color="white">Get Involved</font></a>
-  <a href="resources.html" id="bar"><font color="white">Resources</font></a>
-  <a href="events.html" id="bar"><font color="white">Events</font></a>
-
-
-  <div class="dropdown" id="bar">
-    <button class="dropbtn"><font color="white">About</font>
-      <i class="fa fa-caret-down"></i>
-    </button>
-  <div class="dropdown-content">
-    <a href="overview.html"><font color="black">Overview</font></a>
-    <a href="types.html"><font color="black">Types of mental illnesses</font></a>
+    <div class="dropdown" id="bar">
+      <button class="dropbtn"><font color="white">About</font>
+        <i class="fa fa-caret-down"></i>
+      </button>
+    <div class="dropdown-content">
+      <a href="overview.html"><font color="black">Overview</font></a>
+      <a href="types.html"><font color="black">Types of mental illnesses</font></a>
+    </div>
+  </div id="bar">
+    <a href="events.html" id="bar"><font color="white">Events</font></a>
+    <a href="resources.html" id="bar"><font color="white">Resources</font></a>
+    <a href="getInvolved.html" id="bar"><font color="white">Get Involved</font></a>
+    <a href="playlist.html" id="bar"><font color="white">De-Stress Now!</font></a>
   </div>
-</div id="bar">
-  <a href="index.html" id="bar"><font color="white">Home</font></a>
-
-</div>
-<!-- end of top bar -->
+  <!-- end of top bar -->
 
 <hr>
 <p><h1><center>Overview</center></h1>
@@ -93,8 +93,8 @@ button:hover, a:hover {
 
 <p><h3><center>Identity And Mission
 </center></h3>
-<p>&nbsp;&nbsp;Peace of Mind is a mental health website that strives to educate everyone
-about the types of mental conditions that exist and how to combat them. It also advocates for prevention, recognition of &nbsp;&nbsp;symptoms, and treatment for anyone affected by mental illnesses.
+<tr><p>&emsp;&emsp;Peace of Mind is a mental health website that strives to educate everyone
+about the types of mental conditions that exist and how to combat them. It also advocates for prevention, recognition &emsp;&emsp;of symptoms, and treatment for anyone affected by mental illnesses.
 We envision a future where everyone is healthy and happy!
 </p><br></br><br></br>
 <hr>
@@ -106,13 +106,13 @@ We envision a future where everyone is healthy and happy!
     <img src="nikhita.jpg" alt="Nikhita" style="width:100%">
     <h1>Nikhita Kalluri</h1>
     <p class="title">Evergreen Valley High School</p>
-    <p>Hi, I'm Nikhita! I am a rising senior in high school. I am interested in Data Analysis and Computer Science, and my favorite subject is math. In my free time, I like running, yoga, gymnastics, and spending time with my friends. I love eating anything sweet.</p>
+    <p>Hi, I'm Nikhita! I am a rising senior in high school. I am interested in Data Analysis and Computer Science, and my favorite subject is math. In my free time, I like running, yoga, gymnastics, and spending time with my friends/family. My favorite food is any type of desert, especially chocolate.</p>
     <div style="margin: 20px 0;">
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-snapchat"></i></a>
+      <i class="fa fa-linkedin"></i></a>
+      <i class="fa fa-facebook"></i></a>
+      <i class="fa fa-snapchat"></i></a>
     </div>
-    <p><button>Contact</button></p>
+    <button class="button" onclick=" window.open('https://www.linkedin.com/in/nikhita-kalluri-57915418b/','_blank')"> Contact</button>
   </div>
 </th>
 <th>
@@ -120,14 +120,14 @@ We envision a future where everyone is healthy and happy!
     <img src="Anvi.jpg" alt="Anvi" style="width:100%">
     <h1>Anvi Kunta</h1>
     <p class="title">Washington High School</p>
-    <p>Anvi Kunta is a rising senior at Washington High School. In her free time, she likes playing tennis and watching TV shows on Netflix. Girls Who Code opened Anvi's eyes to the tech industry and allowed her to develop her coding skills.</p>
+    <p>Anvi Kunta is a rising senior at Washington High School. In her free time, she likes playing tennis, watching TV shows on Netflix, and spending time with her friends. Girls Who Code opened Anvi's eyes to the tech industry and allowed her to develop her coding skills.</p>
     <div style="margin: 20px 0;">
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
-      <a href="#"><i class="fa fa-snapchat"></i></a>
+      <i class="fa fa-linkedin"></i></a>
+      <i class="fa fa-facebook"></i></a>
+      <i class="fa fa-instagram"></i></a>
+      <i class="fa fa-snapchat"></i></a>
     </div>
-    <p><button>Contact</button></p>
+    <button class="button" onclick=" window.open('https://www.linkedin.com/in/anvi-kunta-8a9695162/','_blank')"> Contact</button>
   </div>
 </th>
 <th>
@@ -137,12 +137,12 @@ We envision a future where everyone is healthy and happy!
     <p class="title">Los Altos High School</p>
     <p>Supposedly there are over one million words in the English Language. We trimmed some fat to take away really odd words and determiners. Then we grabbed the most popular words and built this word randomizer. Just keep clicking</p>
     <div style="margin: 20px 0;">
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
-      <a href="#"><i class="fa fa-snapchat"></i></a>
+      <i class="fa fa-linkedin"></i></a>
+      <i class="fa fa-facebook"></i></a>
+      <i class="fa fa-instagram"></i></a>
+      <i class="fa fa-snapchat"></i></a>
     </div>
-    <p><button>Contact</button></p>
+    <button class="button" onclick=" window.open('https://www.linkedin.com/in/isabel-berny-2bbb4b18a/','_blank')"> Contact</button>
   </div>
 </th>
 <th>
@@ -152,12 +152,12 @@ We envision a future where everyone is healthy and happy!
     <p class="title">San Mateo High School</p>
     <p>Supposedly there are over one million words in the English Language. We trimmed some fat to take away really odd words and determiners. Then we grabbed the most popular words and built this word randomizer. Just keep clicking</p>
     <div style="margin: 20px 0;">
-      <a href="#"><i class="fa fa-linkedin"></i></a>
-      <a href="#"><i class="fa fa-facebook"></i></a>
-      <a href="#"><i class="fa fa-instagram"></i></a>
-      <a href="#"><i class="fa fa-snapchat"></i></a>
+      <i class="fa fa-linkedin"></i></a>
+      <i class="fa fa-facebook"></i></a>
+      <i class="fa fa-instagram"></i></a>
+      <i class="fa fa-snapchat"></i></a>
     </div>
-    <p><button>Contact</button></p>
+    <button class="button" onclick=" window.open('https://www.linkedin.com/in/jessie-jiang-097b5618a/','_blank')"> Contact</button>
   </div>
 </th>
 </tr>

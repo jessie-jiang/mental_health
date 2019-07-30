@@ -1,11 +1,11 @@
 /* Nunito font for all text */
 body{
   background-image: url(testing.png);
-  background="testing.png"
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   font-family: 'Nunito', sans-serif;
+  margin: none;
 }
 p{
   font-family: 'Nunito', sans-serif;
@@ -27,16 +27,21 @@ q{
   float: left;
   margin-bottom: 10px;
   height: 45px;
-  width: 100px;
+  width: 50px;
   display: inline-block;
   text-align: center;
   background-color: transparent;
+  padding: 0px 0px 0px 0px;
+  border: 0px 0px 0px 0px;
 }
 
 #pomTitle{
-  margin: none;
-  padding: none;
-
+  padding: 0px 0px 0px 0px;
+  text-align: inherit;
+  border: 0px 0px 0px 0px;
+  font-size: 45px;
+  font-family: 'Sofia', cursive;
+  text-overflow: visible;
 }
 
 #title{
@@ -46,7 +51,7 @@ q{
   color: white;
   margin: none;
   background-color: transparent;
-
+  text-overflow: visible;
 }
 
 #bar{

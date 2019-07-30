@@ -6,26 +6,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sofia&display=swap" rel="stylesheet">
+    <!-- bootstrap to clear web formatting -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="main.css">
+
+    <style>
+      .footer {
+        /* position: sticky; */
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #81B89A;
+        color: white;
+        text-align: center;
+        font-family: Nunito;
+        font-size: 14px;
+
+        height:132px;
+        margin-top:-10px;
+        padding:5px 0;
+      }
+    a.pagelink {
+      color: white;
+    }
+      h3 {font-family: Sofia; font-size: 20px;}
+    </style>
   </head>
   <body>
-
-    <!-- start of top bar -->
-
     <div class="navbar">
-      <p>
+      <div>
         <a href="index.html" id="title">
           <img src="final.png" alt="Peace of Mind Logo" id="pomLogo">
           <h1 id="pomTitle">Peace of Mind</h1>
         </a>
-      </p>
-
-      <a href="playlist.html" id="bar"><font color="white">De-Stress Now!</font></a>
-      <a href="getInvolved.html" id="bar"><font color="white">Get Involved</font></a>
-      <a href="resources.html" id="bar"><font color="white">Resources</font></a>
-      <a href="events.html" id="bar"><font color="white">Events</font></a>
-
+      </div>
+      <a href="index.html" id="bar"><font color="white">Home</font></a>
 
       <div class="dropdown" id="bar">
         <button class="dropbtn"><font color="white">About</font>
@@ -36,8 +52,10 @@
         <a href="types.html"><font color="black">Types of mental illnesses</font></a>
       </div>
     </div id="bar">
-      <a href="index.html" id="bar"><font color="white">Home</font></a>
-
+      <a href="events.html" id="bar"><font color="white">Events</font></a>
+      <a href="resources.html" id="bar"><font color="white">Resources</font></a>
+      <a href="getInvolved.html" id="bar"><font color="white">Get Involved</font></a>
+      <a href="playlist.html" id="bar"><font color="white">De-Stress Now!</font></a>
     </div>
     <!-- end of top bar -->
 
@@ -133,64 +151,26 @@
           <p><a href="https://www.psychiatry.org/psychiatrists/practice/dsm/feedback-and-questions/frequently-asked-questions/"> Visit the Website!</a></p>
         </article></div>
       </section>
-    <!-- <div> </div>
-    <center>  <div><hr><div class="titles">Numbers To Call</div><hr>  </center>
-    <table style="width:100%">
-      <tr>
-        <td style="width:auto;height:auto;border:2px solid #000000;margin:0;" class="box_background">
-          <ul style =textAlign: center>
-            <li class="sub_titles">Samsha's National Helpline-</li>
-              <div id="contact" class="tab">call +1(800)662-HELP(4357)</div>
-              <div class="spacing_btwn_resources"> </div>
-            <li class="sub_titles">Veteran's Crisis Line-</li>
-              <div class="tab" id="contact">text 838255 or</div>
-              <div class="tab" id="contact">call +1(800)273-8255</div>
-              <div class="spacing_btwn_resources"> </div>
-            <li class="sub_titles">Suicide Prevention Line-</li>
-              <div class="tab" id="contact">call +1(800)273-8255</div>
-          </ul>
-        </td>
-      </tr>
-    </table> -->
+      <div class="footer">
+        <p></p>
+        <center><table></center>
+          <tr>
+            <th style= "padding-right: 50px">
+              <a href="overview.html" class="pagelink">About Us</a>
+            </th>
+            <th style= "padding-right: 50px">
+              <a href="resources.html"class="pagelink">Resources</a>
+            </th>
+            <th style= "padding-right: 50px">
+              <a href="termsOfUse.html"class="pagelink">Terms of Use</a>
+            </th>
+          </tr>
+        </table>
+            <p style="font-size:11px">Disclaimer: We tried our best to make this website as helpful and respectful as possible, but we are not professionals. For this reason, we have included useful resources (in the resources page) in case you need real help.</p>
 
-    <!-- <div class="spacing_btwn_dif_resources"> </div>
-      <center><hr><div class="titles">Websites</div><hr>  </center>
-
-    <center><table style="width:100%">
-      <tr>
-        <td style=";height:auto;border:2px solid #000000;margin:0;" class="box_background">
-          <ul>
-            <li class="sub_titles"><div class="link_color" id="link_visited_color"><a href="https://psychcentral.com/" target="_blank">PsychCentral</a></div></li>
-              <div class="spacing_btwn_resources"> </div>
-            <li class="sub_titles"><div class="link_color" id="link_visited_color"><a href="https://www.apa.org/" target="_blank">American Psychological Association</a></div></li>
-              <div class="spacing_btwn_resources"> </div>
-            <li class="sub_titles"><div class="link_color" id="link_visited_color"><a href="https://www.psychiatry.org" target="_blank">American Psychiatric Association</a></div></li>
-              <div class="spacing_btwn_resources"> </div>
-            <li class="sub_titles"><div class="link_color" id="link_visited_color"><a href="https://www.psychologytoday.com/us" target="_blank">Psychology Today</a></div></li>
-              <div class="spacing_btwn_resources"> </div>
-            <div id="contact">Last but not least, the cutest mental health website: </div>
-            <li class="sub_titles"><div class="link_color" id="link_visited_color"><a href="https://headtohealth.gov.au" target="_blank">Head to Health</a></div></li>
-          </ul>
-        </td>
-      </tr>
-    </table> -->
-
-    <!-- <div class="spacing_btwn_dif_resources"> </div>
-    <center><hr><div class="titles">Diagnostic Resources</div><hr>  </center>
-
-    <table style="width:100%">
-      <tr>
-        <td style=";height:auto;border:2px solid #000000;margin:0;" class="box_background">
-          <ul>
-            <li class="sub_titles"><div class="link_color" id="link_visited_color"><a href="https://www.mayoclinic.org/" target="_blank">Mayo Clinic</a></div></li>
-              <div class="spacing_btwn_resources"> </div>
-            <li class="sub_titles"><div class="link_color" id="link_visited_color"><a href="https://www.mindwise.org/" target="_blank">Screening for Mental Health</a></div></li>
-              <div class="spacing_btwn_resources"> </div>
-            <li class="sub_titles"><div class="link_color" id="link_visited_color"><a href="https://www.psychiatry.org/psychiatrists/practice/dsm/feedback-and-questions/frequently-asked-questions/" target="_blank">Diagnostic and Statistical Manual of Mental Disorders</a></div></li>
-          </ul>
-        </td>
-      </tr>
-    </table></center> -->
-
+        <center>
+            <h3 style= "font-family: Sofia">Peace of Mind</h3>
+        </center>
+      </div>
 </body>
 </html>
