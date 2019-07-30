@@ -63,6 +63,7 @@ q{
 
 #bar{
   float:right;
+  text-align: center;
 }
 /* background for every page */
 body{
