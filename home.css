@@ -14,7 +14,8 @@ img{
   height: auto;
   /* max-width: 1000px; */
   /* width:1000px; */
-  max-width: 67%;
+  /* max-width: 67%; */
+  width:100%;
   /* overflow-x: hidden;
   overflow-y: hidden; */
   align-content: center;
@@ -26,13 +27,31 @@ img{
   display: flex;
 }
 
+#image_resizing {
+  float:center;
+  /* max-height: 700px; */
+  /* height: 700px; */
+  height: auto;
+  /* max-width: 1000px; */
+  /* width:1000px; */
+  max-width: 67%;
+  /* width:100%; */
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+  align-content: center;
+  /* margin-left: 5%; */
+  /* padding-left: 16px;
+  padding-right: 16px; */
+  margin-top: 0px;
+  vertical-align: middle;
+}
 
 #randImages{
   /* height: 700px;
   width: 665px; */
-  align-content: left;
+  align-content: center;
   /* margin-left: 15px; */
-  margin-top: 0px;
+  /* margin-top: 0px; */
 }
 
 q{
@@ -41,7 +60,7 @@ q{
 
 .sidebarInfo {
   float: center;
-  padding: 0px 12px;
+  /* padding: 0px 12px; */
   border: 1px solid #ccc;
   height: auto;
   /* width: 670px; */
@@ -49,6 +68,8 @@ q{
   /* width: 670px; */
   /* height: 700px; */
   margin-left: 15px;
+  margin-top: 0px;
+  /* padding: 0px 0px; */
   text-align: center;
 }
 
@@ -59,6 +80,7 @@ ul.nav{
 
 ul.nav li{
   display: inline-block;
+
 }
 
 #backgroundUl{

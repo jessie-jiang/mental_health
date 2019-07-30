@@ -79,12 +79,14 @@ background-color:#e2fde2;
 
 .navbar_li {
   float: left;
+  /* width: 67%; */
 }
 
 .navbar_li a {
   display: block;
   color: darkgray;
   text-align: center;
+  padding: 0px;
   padding: 14px 16px;
   text-decoration: none;
 }
@@ -117,6 +119,7 @@ body {
   font-size: 16px;
   color: white;
   text-align: center;
+
   padding: 14px 16px;
   text-decoration: none;
 }
