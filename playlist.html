@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html>
+<style>
+.footer {
+  /* position: sticky; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #81B89A;
+  color: white;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 14px;
+
+  height:140px;
+  margin-top:-10px;
+  padding:5px 0;
+}
+a.pagelink {
+color: white;
+}
+h3 {font-family: Sofia; font-size: 20px;}
+</style>
   <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
@@ -11,7 +32,6 @@
     <script src="playlist.js"> </script>
   </head>
   <body>
-
 <!-- start of top bar -->
 
 <div class="navbar">
@@ -133,6 +153,29 @@
     <span class="dot" onclick="currentSlide(4)"></span>
     <span class="dot" onclick="currentSlide(5)"></span>
     <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+  <br></br>
+
+  <div class="footer">
+    <p></p>
+    <center><table></center>
+      <tr>
+        <th style= "padding-right: 50px">
+          <a href="overview.html" class="pagelink">About Us</a>
+        </th>
+        <th style= "padding-right: 50px">
+          <a href="resources.html"class="pagelink">Resources</a>
+        </th>
+        <th style= "padding-right: 50px">
+          <a href="termsOfUse.html"class="pagelink">Terms of Use</a>
+        </th>
+      </tr>
+    </table>
+    <center>
+        <h3 style= "font-family: Sofia">Peace of Mind</h3>
+        <p style="font-size:11px">Disclaimer: We tried our best to make this website as helpful and respectful as possible, but we are not professionals. For this reason, we have included useful resources (in the resources page) in case you need real help.</p>
+
+    </center>
   </div>
 </body>
 </html>
