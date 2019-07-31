@@ -71,7 +71,7 @@ body{  background-image: url(testing.png);
 
 
     <!-- start of top bar -->
-    <div class="navbar">
+    <div class="navbar" style="overflow:visible;">
       <div>
         <a href="index.html" id="title">
           <img src="final.png" alt="Peace of Mind Logo" id="pomLogo">
@@ -81,12 +81,14 @@ body{  background-image: url(testing.png);
       <a href="index.html" id="bar"><font color="white">Home</font></a>
       <div class="dropdown" id="bar">
         <button class="dropbtn"><font color="white">About</font>
-          <i class="fa fa-caret-down"></i>
+          <i class="fa fa-caret-down">
+          </i>
+          <div class="dropdown-content">
+            <div><a href="overview.html"><font color="black">Overview</font></a>
+            <a href="types.html"><font color="black">Topics</font></a></div>
+          </div>
         </button>
-      <div class="dropdown-content">
-        <a href="overview.html"><font color="black">Overview</font></a>
-        <a href="types.html"><font color="black">Topics</font></a>
-      </div>
+
     </div id="bar">
     <a href="events.html" id="bar"><font color="white">Events</font></a>
     <a href="resources.html" id="bar"><font color="white">Resources</font></a>
@@ -229,7 +231,9 @@ function showSlides(n) {
           <li class="navbar_li" id="image_resizing" style="max-height:700px;min-width:430px;display:inline-block;" >
             <!-- <div> -->
                 <!-- <img src="getImages.js" alt="sd" id="randImages" border="0" style="display: block;" /> -->
+                <div style="text-align:center;vertical-align:center;">
                 <img src="getImages.js" alt="Random image provided by Pexels" id="randImages">
+                </div>
                 <!-- <p style="clear: both;">sdfsdfsdkfjsdkljfklsjdflksjdkflsdj</p>
               <p> -->
                 <div class="pex">
