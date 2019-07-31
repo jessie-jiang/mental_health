@@ -79,6 +79,13 @@ background-color:#e2fde2;
   color: black;
 }
 
+.currentTab{
+  background-color:#81B89A;
+  color:#81B89A;
+  border-radius: 12px;
+}
+
+
 .navbar_ul {
   list-style-type: none;
   margin: 10px;
