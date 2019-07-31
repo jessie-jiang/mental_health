@@ -139,7 +139,8 @@ body {
 
 .dropdown {
   float: center;
-  overflow: hidden;
+  display: block;
+  /* overflow: hidden; */
 }
 
 .dropdown .dropbtn {
